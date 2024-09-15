@@ -1,0 +1,89 @@
+
+
+
+/************************************/
+/* Initial default for all elements */
+/************************************/
+
+* {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-width: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+  line-height: 6px;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  page-break-after: avoid;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+
+
+/**************************************/
+/* Structure elements for information */
+/**************************************/
+
+body>table>tbody>tr>td {
+  padding: 1px 1px 1px 1px;
+  vertical-align: top; }
+
+.center {
+  text-align: center; }
+
+.shrink {
+  width: 0px; }
+
+
+
+/**************************************/
+/* Structure elements for information */
+/**************************************/
+
+
+table.special {
+  width: 100%; }
+
+table.special:not(:first-child) {
+  margin-top: 2px; }
+
+
+table.special>thead>tr>td {
+  background-color: #fdcf8d;
+  padding: 2px 3px 2px 3px; }
+
+
+table.special>tbody>tr>th,
+ table.special>tbody>tr>td {
+  padding: 1px 2px 1px 2px; }
+
+table.special>tbody>tr>th {
+  background-color: #b9e1fb !important; }
+
+table.special>tbody
+ >tr:nth-child(even)>td {
+  background-color: #d7f6ff; }
+
+table.special>tbody
+ >tr:nth-child(odd)>td {
+  background-color: #c7edfd; }
+
+
+
+/**************************************/
+/* Ancillary elements for information */
+/**************************************/
+
+img {
+  height: 8px;
+  margin: -3px 0px -2px 0px;
+  width: 8px; }
