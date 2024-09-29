@@ -1,3 +1,6 @@
+
+
+
 from io import BytesIO
 from pathlib import Path
 
@@ -9,7 +12,7 @@ from wand.color import Color
 
 output = (
     Path(__file__).parent
-    / 'htmlimage.png')
+    / 'image.png')
 
 common = (
     Path(__file__).parent
@@ -18,6 +21,10 @@ common = (
 fonts = (
     Path(__file__).parent
     / 'static/fonts.css')
+
+image = (
+    Path(__file__).parent
+    / 'static/image.css')
 
 gtaca_file = (
     Path(__file__).parent
@@ -35,6 +42,7 @@ gtarp = f'<img src="file://{gtarp_file}">'
 html_string = f"""
     <link rel="stylesheet" href="file://{common}">
     <link rel="stylesheet" href="file://{fonts}">
+    <link rel="stylesheet" href="file://{image}">
 
     <table>
      <tbody>

@@ -7,7 +7,10 @@
 
 
 
-!/htmlimage
+!/gtaupdates
+gtaupdates/venv
+!/ircservices
+ircservices/venv
 
 !/LICENSE
 !/README.md
