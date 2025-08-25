@@ -1,0 +1,40 @@
+
+
+
+/************************************/
+/* Initial default for all elements */
+/************************************/
+
+* {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-width: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+  line-height: 6px;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  outline: none !important;
+  padding: 0px 0px 0px 0px;
+  page-break-after: avoid;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+
+
+/**********************************/
+/* Elements which are very common */
+/**********************************/
+
+img {
+  height: 8px;
+  margin: -3px 0px -2px 0px;
+  width: 8px; }
